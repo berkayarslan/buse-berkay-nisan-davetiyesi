@@ -84,26 +84,15 @@ export const Screen2Couple: React.FC<Screen2CoupleProps> = ({ onNext }) => {
           </motion.div>
         </div>
 
-        <LuxuryDivider className="my-2.5" />
-
-        {/* Quote */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: false, amount: 0.3 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="font-luxury italic text-base sm:text-lg text-[#4A5D66] max-w-xs mx-auto leading-relaxed my-1"
-        >
-          {WEDDING_DATA.quote}
-        </motion.p>
+        <LuxuryDivider className="my-3 sm:my-4" />
 
         {/* Parents Information */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: false, amount: 0.3 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
-          className="mt-3.5 flex flex-col sm:flex-row items-center justify-center gap-x-4 gap-y-1 text-xs sm:text-sm font-luxury text-[#527885] bg-white/80 backdrop-blur-2xs px-5 py-2.5 rounded-xl border border-[#C6A45F]/35 shadow-2xs"
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="mt-2 sm:mt-3 flex flex-col sm:flex-row items-center justify-center gap-x-4 gap-y-1 text-xs sm:text-sm font-luxury text-[#527885] bg-white/85 backdrop-blur-2xs px-5 py-3 rounded-xl border border-[#C6A45F]/35 shadow-2xs"
         >
           <span className="whitespace-nowrap">
             <strong className="text-[#2D454E]">Gelin Ailesi:</strong> {WEDDING_DATA.brideParents}
