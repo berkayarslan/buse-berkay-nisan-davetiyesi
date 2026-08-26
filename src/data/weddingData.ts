@@ -19,10 +19,10 @@ export const WEDDING_DATA: WeddingDetails = {
   yandexMapsUrl: 'https://yandex.com.tr/harita/?text=Akay+Davet+Salonu+%C5%9Eeyhsinan+Mahallesi+Tetik+Sk.+No:53A+%C3%87orlu',
   contactPhone: '+905321234567',
   dressCode: 'Şık & Zarif',
-  dressCodeDescription: 'Davetlilerimizin şık ve zarif kıyafet tercihleri günümüze eşsiz bir ışıltı katacaktır.',
+  //dressCodeDescription: 'Davetlilerimizin şık ve zarif kıyafet tercihleri günümüze eşsiz bir ışıltı katacaktır.',
   tagline: 'EN MUTLU GÜNÜMÜZE DAVETLİSİNİZ',
   familiesText: 'UÇAR & ARSLAN AİLELERİ',
-  quote: '“Hayatımızın bu en özel gününde sizleri de aramızda görmekten mutluluk duyarız.”',
+  quote: '“Hayatımızın en özel günlerinde sizleri de aramızda görmekten mutluluk duyarız.”',
   hashtag: '#BuseBerkayNisan',
 };
 

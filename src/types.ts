@@ -17,7 +17,7 @@ export interface WeddingDetails {
   yandexMapsUrl: string;
   contactPhone: string;
   dressCode: string;
-  dressCodeDescription: string;
+  dressCodeDescription?: string;
   tagline: string;
   familiesText: string;
   quote: string;
