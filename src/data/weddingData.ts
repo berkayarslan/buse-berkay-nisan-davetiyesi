@@ -1,0 +1,90 @@
+import { WeddingDetails, TimelineEvent } from '../types';
+
+export const WEDDING_DATA: WeddingDetails = {
+  brideName: 'BUSE',
+  groomName: 'BERKAY',
+  brideFullName: 'Buse Uçar',
+  groomFullName: 'Berkay Arslan',
+  brideParents: 'Ebru & Özcan Uçar',
+  groomParents: 'Hülya & Oktay Arslan',
+  weddingDate: '2026-10-11T13:30:00',
+  weddingDateDisplay: '11 Ekim 2026, Pazar',
+  weddingDay: 'Pazar',
+  weddingTime: '13:30 - 17:00',
+  venueName: 'Akay Davet Salonu',
+  venueAddress: 'Şeyhsinan mahallesi ziyabey caddesi, Tetik Sk. 53A, 59850 Çorlu/Tekirdağ',
+  city: 'Çorlu / Tekirdağ',
+  googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Akay+Davet+Salonu+%C5%9Eeyhsinan+Tetik+Sk+53A+%C3%87orlu',
+  appleMapsUrl: 'https://maps.apple.com/?daddr=Tetik+Sokak+53A,+%C5%9Eeyhsinan,+59850+%C3%87orlu,+Tekirda%C4%9F&q=Akay+Davet+Salonu',
+  yandexMapsUrl: 'https://yandex.com.tr/harita/?text=Akay+Davet+Salonu+%C5%9Eeyhsinan+Mahallesi+Tetik+Sk.+No:53A+%C3%87orlu',
+  contactPhone: '+905321234567',
+  dressCode: 'Şık & Zarif',
+  dressCodeDescription: 'Davetlilerimizin şık ve zarif kıyafet tercihleri günümüze eşsiz bir ışıltı katacaktır.',
+  tagline: 'EN MUTLU GÜNÜMÜZE DAVETLİSİNİZ',
+  familiesText: 'UÇAR & ARSLAN AİLELERİ',
+  quote: '“Hayatımızın bu en özel gününde sizleri de aramızda görmekten mutluluk duyarız.”',
+  hashtag: '#BuseBerkayNisan',
+};
+
+export const TIMELINE_EVENTS: TimelineEvent[] = [
+  {
+    time: '13:30',
+    title: 'Misafir Girişi',
+    description: 'Değerli konuklarımızın salona girişi ve karşılanması.',
+    iconName: 'GlassWater',
+  },
+  {
+    time: '14:00',
+    title: 'Kız İsteme',
+    description: 'Geleneksel kız isteme ve kahve merasimi.',
+    iconName: 'Heart',
+  },
+  {
+    time: '14:20',
+    title: 'İlk Dans',
+    description: 'Buse & Berkay ilk dansı.',
+    iconName: 'Sparkles',
+  },
+  {
+    time: '14:35',
+    title: 'Yüzük & Pasta Kesimi',
+    description: 'Nişan yüzüklerinin takılması ve pasta merasimi.',
+    iconName: 'HeartHandshake',
+  },
+  {
+    time: '15:00',
+    title: 'Takı Merasimi',
+    description: 'Tebrik ve takı takdimi.',
+    iconName: 'Gift',
+  },
+  {
+    time: '15:30',
+    title: '2. Dans',
+    description: 'Kutlama dansı.',
+    iconName: 'Music',
+  },
+  {
+    time: '15:45',
+    title: 'Oyun Havaları & Eğlence',
+    description: 'Sevdiklerimizle birlikte doyasıya eğlence.',
+    iconName: 'PartyPopper',
+  },
+  {
+    time: '16:30',
+    title: 'After Müzik',
+    description: 'Keyifli müzikler eşliğinde kutlama.',
+    iconName: 'Headphones',
+  },
+  {
+    time: '16:45',
+    title: 'Fotoğraf Çekimi',
+    description: 'Aile ve dostlarla hatıra fotoğrafları.',
+    iconName: 'Camera',
+  },
+  {
+    time: '17:00',
+    title: 'Bitiş & Kapanış',
+    description: 'Tüm sevdiklerimize teşekkürlerimizle.',
+    iconName: 'Clock',
+  },
+];

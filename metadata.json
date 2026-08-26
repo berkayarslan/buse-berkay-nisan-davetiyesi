@@ -1,0 +1,6 @@
+{
+  "name": "Buse & Berkay Nişan Davetiyesi",
+  "description": "Buse & Berkay 11 Ekim 2026 saat 13:30 - 17:00 Çorlu Akay Davet Salonu dijital nişan davetiyesi. Ebru & Özcan Uçar ve Hülya & Oktay Arslan aileleri.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
