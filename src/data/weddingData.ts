@@ -35,7 +35,7 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
   },
   {
     time: '14:00',
-    title: 'Kız İsteme',
+    title: 'Kız İsteme Merasimi',
     description: 'Geleneksel kız isteme ve kahve merasimi.',
     iconName: 'Heart',
   },
