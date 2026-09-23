@@ -47,8 +47,8 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
   },
   {
     time: '14:35',
-    title: 'Yüzük & Pasta Kesimi',
-    description: 'Nişan yüzüklerinin takılması ve pasta merasimi.',
+    title: 'Yüzük Merasimi',
+    description: 'Nişan yüzüklerinin takılması ve tebrikler.',
     iconName: 'HeartHandshake',
   },
   {
